@@ -8,7 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/AppData/Roaming/Mindustry/mods/Project-Eclipse" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -29,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sprites/blocks/generators/adv-steam-gen" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/Mindustry/mods" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -37,6 +37,7 @@
       <recent name="C:\Users\HOME\Documents\GitHub\Project-Eclipse\sprites\blocks\generators" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods" />
       <recent name="C:\Users\HOME\Documents\GitHub\Project-Eclipse\sprites\blocks\generators\adv-steam-gen" />
     </key>
   </component>
