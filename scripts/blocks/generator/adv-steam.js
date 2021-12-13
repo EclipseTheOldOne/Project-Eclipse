@@ -1,7 +1,7 @@
 const steamGen = extend(BurnerGenerator, "adv-steam-gen", {
     generateFx: Fx.smeltsmoke,
     getItemEfficiency(item) {
-      return item.flammability * (1.5 - liquid.temperature)
+      return item.flammability * 2.75
     }
 });
 steamGen.buildType = () => extend(BurnerGenerator.BurnerGeneratorBuild, steamGen, {
