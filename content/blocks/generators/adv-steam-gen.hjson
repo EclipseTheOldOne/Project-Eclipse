@@ -12,6 +12,12 @@ requirements:
 hasPower: true
 hasItems: true
 hasLiquids: true
+consumes: {
+    liquid: [
+        liquid: water
+        amount: 0.15
+    ]
+}
 powerProduction: 5.5
 minItemEfficiency: 0.2
 minLiquidEfficiency: 1000
