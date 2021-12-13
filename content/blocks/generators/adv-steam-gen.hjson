@@ -1,0 +1,23 @@
+name: Mechanical Steam Generator
+description: "An advance steam generator, generate power based on item flammability, require extra coolant\n[sky]The coolant temperature are efficiency \n(50% temperature are 90% efficiency, maximum are 160% efficiency)"
+health: 350
+size: 2
+requirements:
+[
+    lead/55
+    silicon/45
+    titanium/25
+    graphite/25
+]
+hasPower: true
+hasItems: true
+hasLiquids: true
+powerProduction: 9.5
+minItemEfficiency: 0.2
+minLiquidEfficiency: 1000
+randomlyExplode: false
+maxLiquidGenerate: 0.15
+generateEffect: none
+itemDuration: 90
+liquidCapacity: 50
+category: power

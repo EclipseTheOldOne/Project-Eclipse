@@ -1,0 +1,1 @@
+require("blocks/generator/adv-steam");
