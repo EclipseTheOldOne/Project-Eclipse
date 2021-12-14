@@ -26,6 +26,7 @@ consumes:
         liquid: water
         amount: 0.4
     }
+    power: 3.2
 }
 itemCapacity: 50
 liquidCapacity: 70
