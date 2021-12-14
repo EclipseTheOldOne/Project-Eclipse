@@ -7,7 +7,7 @@ drawer: DrawGlow
 category: crafting
 updateEffect: pulverizeSmall
 baseEfficiency: 0.5
-descripition: "Turn large amount of coal into oil using high pressure, heat and water"
+description: "Turn large amount of coal into oil using high pressure, heat and water"
 requirements:
 [
     titanium/25
@@ -20,7 +20,7 @@ consumes:
     items:
     {
         items: [
-            coal/6
+            coal/10
         ]
     }
     liquid:
