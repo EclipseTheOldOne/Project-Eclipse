@@ -2,7 +2,7 @@ name: "mindus"
 displayName: "Project Eclipse"
 author: Eclipse
 description: "A"
-version: "0.1"
+version: "0.1.0.1"
 minGameVersion: "135"
 dependencies: []
 hidden: false
