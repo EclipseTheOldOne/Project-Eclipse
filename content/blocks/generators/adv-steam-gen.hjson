@@ -24,6 +24,6 @@ minLiquidEfficiency: 1000
 randomlyExplode: false
 maxLiquidGenerate: 0.15
 generateEffect: none
-itemDuration: 90
+itemDuration: 60
 liquidCapacity: 50
 category: power
