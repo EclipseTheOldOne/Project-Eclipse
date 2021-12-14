@@ -14,7 +14,7 @@ requirements:
     graphite/35
 ]
 consumes:
-[
+{
     items:
     {
         items: [
@@ -26,7 +26,7 @@ consumes:
         liquid: water
         amount: 0.4
     }
-]
+}
 itemCapacity: 50
 liquidCapacity: 70
 craftTime: 180
