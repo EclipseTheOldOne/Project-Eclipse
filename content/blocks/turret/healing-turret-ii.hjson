@@ -3,9 +3,10 @@ health: 800
 reloadTime: 30
 range: 120
 powerUse: 3.5
+shotDelay: 3
 targetHealing: true
 description: "An improved Healing Turret, shoot burst of homing healing missiles\n[#83f793]Target ally building"
-name: Heal
+name: Recover
 shots: 3
 inaccuracy: 15
 shootType:
@@ -23,6 +24,7 @@ shootType:
         sparkColor: 83f793
         smokeColor: 83f793
     }
+    hitEffect: heal
     weaveScale: 4
     damage: 12
     trailColor: 83f793
