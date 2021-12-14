@@ -1,16 +1,17 @@
 type: PowerTurret
 health: 250
-reloadTime: 30
+reloadTime: 20
 range: 60
 powerUse: 1.5
 targetHealing: true
+name: Heal
 shootType:
 {
     type: LaserBoltBulletType
     collidesTeam: true
     healPercent: 5
-    speed: 3
-    lifetime: 20
+    speed: 6
+    lifetime: 10
     frontColor: ffffff
     backColor: 83f793
 }

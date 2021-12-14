@@ -1,7 +1,8 @@
 type: Drill
 health: 450
 tier: 3
-drillTime: 45
+name: Advance Mechanical Drill
+drillTime: 310
 description: "Use advance technology to maximize the efficiency of mechanical drill, slighty slower than the Laser Drill\n[sky]Take time to speedup"
 size: 3
 liquidBoostIntensity: 1.85
