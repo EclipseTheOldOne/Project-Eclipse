@@ -1,0 +1,34 @@
+type: AttributeCrafter
+maxBoost: 2.5
+health: 250
+size: 2
+drawer: DrawGlow
+updateEffect: pulverizeSmall
+baseEfficiency: 0.5
+descripition: "Turn large amount of coal into oil using high pressure, heat and water"
+requirements:
+[
+    titanium/25
+    metaglass/45
+    lead/75
+    graphite/35
+]
+consumes:
+[
+    items:
+    {
+        items: [
+            coal/6
+        ]
+    }
+    liquid:
+    {
+        liquid: water
+        amount: 0.4
+    }
+]
+itemCapacity: 50
+liquidCapacity: 70
+craftTime: 180
+outputLiquid: oil/72
+research: coal-centrifuge

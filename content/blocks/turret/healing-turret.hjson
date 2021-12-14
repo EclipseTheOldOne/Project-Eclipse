@@ -1,0 +1,24 @@
+type: PowerTurret
+health: 250
+reloadTime: 30
+range: 60
+powerUse: 1.5
+targetHealing: true
+shootType:
+{
+    type: LaserBoltBulletType
+    collidesTeam: true
+    healPercent: 5
+    speed: 3
+    lifetime: 20
+    frontColor: ffffff
+    backColor: 83f793
+}
+category: turret
+research: mender
+requirements:
+[
+    lead/35
+    copper/55
+    silicon/25
+]

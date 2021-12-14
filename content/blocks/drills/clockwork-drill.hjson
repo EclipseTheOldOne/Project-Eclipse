@@ -1,0 +1,18 @@
+type: Drill
+health: 450
+tier: 3
+drillTime: 45
+description: "Use advance technology to maximize the efficiency of mechanical drill, slighty slower than the Laser Drill\n[sky]Take time to speedup"
+size: 3
+liquidBoostIntensity: 1.85
+warmupSpeed: 0.0035
+drillEffectRnd: 0.07
+itemCapacity: 20
+liquidCapacity: 70
+requirements:
+[
+    copper/75
+    lead/25
+    graphite/35
+]
+research: pneumatic-drill
