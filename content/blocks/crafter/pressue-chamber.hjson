@@ -1,8 +1,10 @@
 type: AttributeCrafter
+name: Oil Pressure Chamber
 maxBoost: 2.5
 health: 250
 size: 2
 drawer: DrawGlow
+category: crafting
 updateEffect: pulverizeSmall
 baseEfficiency: 0.5
 descripition: "Turn large amount of coal into oil using high pressure, heat and water"

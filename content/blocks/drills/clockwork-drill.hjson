@@ -16,3 +16,4 @@ requirements:
     graphite/35
 ]
 research: pneumatic-drill
+category: production
