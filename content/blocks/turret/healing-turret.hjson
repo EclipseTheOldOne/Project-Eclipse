@@ -15,6 +15,7 @@ shootType:
     damage: 3
     lifetime: 10
     frontColor: ffffff
+    displayAmmoMultiplier: false
     pierce: true
     pierceCap: 2
     pierceBuilding: true

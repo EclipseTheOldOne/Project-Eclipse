@@ -1,7 +1,8 @@
 name: Mechanical Steam Generator
-description: "An advance steam generator, use advance technology to increase efficiency to 250%!"
+description: "An advance steam generator, use advance technology!\n[sky]The power generated are based on inputted fuel and coolant\nRecipe are (150% - coolant temperature%) * fuel flammability\n[red]Only run at 50% without coolant!"
 health: 350
 size: 2
+drawer: DrawLiquid
 requirements:
 [
     lead/75
@@ -11,19 +12,12 @@ requirements:
 ]
 hasPower: true
 hasItems: true
+powerProduction: 12.75
 hasLiquids: true
-powerProduction: 5.5
-consumes: {
-    liquid: {
-        liquid: water
-        amount: 0.4
-    }
-}
-minItemEfficiency: 0.2
-minLiquidEfficiency: 1000
 randomlyExplode: false
-maxLiquidGenerate: 0.15
+itemDuration: 60
 generateEffect: none
 itemDuration: 60
 liquidCapacity: 50
 category: power
+minLiquidEfficiency: 1000

@@ -1,0 +1,108 @@
+type: ItemTurret
+spread: 10
+shootLength: 6
+size: 2
+health: 550
+targetAir: true
+targetGround: true
+shots: 2
+inaccuracy: 3
+requirements:
+[
+    copper/75
+    lead/45
+    graphite/65
+]
+burstSpacing: 5
+alternate: true
+reloadTime: 25
+category: turret
+recoilAmount: 1
+rotateSpeed: 8
+range: 190
+description: "Fast, Strong, Far!\n[accent]Amazing!"
+ammoTypes: {
+    copper: {
+        type: BasicBulletType
+        lifetime: 35
+        speed: 5.45
+        damage: 20
+        height: 23
+        width: 8
+        hitEffect: {
+            type: ExplosionEffect
+            waveColor: c9a58f
+            sparks: 6
+        }
+        despawnEffect: {
+            type: ExplosionEffect
+            waveColor: c9a58f
+            sparks: 6
+        }
+    }
+    graphite: {
+        type: BasicBulletType
+        lifetime: 35
+        speed: 5.45
+        damage: 35
+        ammoMultiplier: 4
+        height: 23
+        width: 11
+        ammoMultiplier: 4
+        hitEffect: {
+            type: ExplosionEffect
+            waveColor: c9a58f
+            sparks: 6
+        }
+        despawnEffect: {
+            type: ExplosionEffect
+            waveColor: c9a58f
+            sparks: 6
+        }
+    }
+    titanium: {
+        type: BasicBulletType
+        lifetime: 35
+        speed: 5.45
+        damage: 32
+        ammoMultiplier: 3
+        pierce: true
+        pierceCap: 3
+        height: 23
+        width: 6.5
+        ammoMultiplier: 4
+        hitEffect: {
+            type: ExplosionEffect
+            waveColor: c9a58f
+            sparks: 6
+        }
+        despawnEffect: {
+            type: ExplosionEffect
+            waveColor: c9a58f
+            sparks: 6
+        }
+    }
+    pyratite: {
+        type: BasicBulletType
+        lifetime: 35
+        speed: 5.45
+        damage: 28
+        ammoMultiplier: 5
+        height: 23
+        backColor: db661c
+        frontColor: ffb855
+        status: burning
+        width: 11
+        ammoMultiplier: 6
+        hitEffect: {
+            type: ExplosionEffect
+            waveColor: c9a58f
+            sparks: 6
+        }
+        despawnEffect: {
+            type: ExplosionEffect
+            waveColor: c9a58f
+            sparks: 6
+        }
+    }
+}

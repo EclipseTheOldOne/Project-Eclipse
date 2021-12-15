@@ -22,6 +22,7 @@ shootType:
         waveColor: 83f793
         waveLife: 7
         sparkColor: 83f793
+        displayAmmoMultiplier: false
         smokeColor: 83f793
     }
     hitEffect: heal

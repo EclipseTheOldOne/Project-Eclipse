@@ -1,0 +1,26 @@
+size: 3
+health: 750
+name: "Thermal Boiler"
+floating: true
+requirements:
+[
+    copper/150
+    plastanium/45
+    metaglass/25
+    silicon/55
+    thorium/75
+]
+category: power
+powerProduction: 5.5
+hasPower: true
+hasItems: true
+hasLiquids: true
+consumes: {
+    liquid: {
+        liquid: water
+        amount: 0.4
+    }
+}
+effectChance: 0
+liquidCapacity: 100
+generateEffect: redgeneratespark
