@@ -1,0 +1,33 @@
+type: AttributeCrafter
+name: Methane Compressor
+maxBoost: 2.5
+size: 3
+drawer:
+{
+    type: DrawLiquid
+    drawOutputSprite: fasle
+}
+requirements:
+[
+    lead/85
+    titanium/65
+    metaglass/45
+    silicon/35
+]
+description: "Accelerate the decay process of spore and mix it with oil to make liquid methane tank"
+consumes:
+{
+    power: 2.5
+    items: {
+        items: [
+            spore-pod/1
+            metaglass/2
+        ]
+    }
+    liquid: {
+        amount: 0.175
+        liquid: oil
+    }
+}
+craftTime: 40
+outputItem: methane-tank/2
