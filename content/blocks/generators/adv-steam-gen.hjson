@@ -1,5 +1,5 @@
-name: Mechanical Steam Generator
-description: "An advance steam generator, use advance technology!\n[sky]The power generated are based on inputted fuel and coolant\nRecipe are (150% - coolant temperature%) * fuel flammability\n[red]Only run at 50% without coolant!"
+name: Mechanical Differential Generator
+description: "A compact differential generator, use advance technology!\n[sky]The power generated are based on inputted fuel and coolant\nRecipe are (150% - coolant temperature%) * fuel flammability\n[red]Only run at 50% without coolant!"
 health: 350
 size: 2
 drawer: DrawLiquid

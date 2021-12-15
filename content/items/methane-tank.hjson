@@ -1,4 +1,5 @@
 color: "7ddba6"
 research: coal
+name: Methane Tank
 description: "Liquid methane in a tank! Mostly used for fueling\n[red]Highly Flammable"
 flammability: 1.4
