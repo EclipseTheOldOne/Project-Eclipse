@@ -1,12 +1,10 @@
 type: AttributeCrafter
 name: Methane Compressor
+category: crafting
 maxBoost: 2.5
+boostScale: 0.35
 size: 3
-drawer:
-{
-    type: DrawLiquid
-    drawOutputSprite: fasle
-}
+drawer: DrawLiquid
 requirements:
 [
     lead/85

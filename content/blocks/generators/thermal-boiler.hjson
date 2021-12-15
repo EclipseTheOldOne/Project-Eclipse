@@ -1,6 +1,7 @@
 size: 3
 health: 750
 name: "Thermal Boiler"
+description: "An improved steam and thermal generator mixed together, use thermal power instead of burning power!\n[red]Only run at 35% without water!"
 floating: true
 requirements:
 [
@@ -18,7 +19,7 @@ hasLiquids: true
 consumes: {
     liquid: {
         liquid: water
-        amount: 0.4
+        amount: 0.6
     }
 }
 effectChance: 0
