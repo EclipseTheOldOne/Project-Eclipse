@@ -1,0 +1,49 @@
+type: PowerTurret
+health: 800
+reloadTime: 30
+range: 120
+powerUse: 3.5
+shotDelay: 3
+targetHealing: true
+description: "An improved Healing Turret, shoot burst of homing healing missiles\n[#83f793]Target ally building"
+name: Recover
+shots: 3
+inaccuracy: 15
+shootType:
+{
+    type: MissileBulletType
+    collidesTeam: true
+    healPercent: 6
+    homingPower: 0.1
+    speed: 4
+    weaveMag: 4
+    shootEffect: {
+        type: ExplosionEffect
+        waveColor: 83f793
+        waveLife: 7
+        sparkColor: 83f793
+        smokeColor: 83f793
+    }
+    hitEffect: heal
+    weaveScale: 4
+    damage: 12
+    trailColor: 83f793
+    trailLength: 16
+    trailWidth: 3
+    lifetime: 30
+    frontColor: ffffff
+    pierce: true
+    pierceCap: 2
+    pierceBuilding: true
+    backColor: 83f793
+}
+category: turret
+research: mender
+requirements:
+[
+    graphite/75
+    thorium/25
+    titanium/65
+    silicon/45
+]
+size: 2

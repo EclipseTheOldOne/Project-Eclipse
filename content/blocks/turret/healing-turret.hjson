@@ -1,17 +1,23 @@
 type: PowerTurret
 health: 250
-reloadTime: 30
+reloadTime: 20
 range: 60
 powerUse: 1.5
 targetHealing: true
+description: "A turret that designed to heal ally building slowly, healing beam can pierce once.\n[#83f793]Target ally building"
+name: Heal
 shootType:
 {
     type: LaserBoltBulletType
     collidesTeam: true
     healPercent: 5
-    speed: 3
-    lifetime: 20
+    speed: 6
+    damage: 3
+    lifetime: 10
     frontColor: ffffff
+    pierce: true
+    pierceCap: 2
+    pierceBuilding: true
     backColor: 83f793
 }
 category: turret
