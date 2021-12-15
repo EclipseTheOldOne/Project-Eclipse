@@ -1,6 +1,7 @@
 type: AttributeCrafter
+name: Methane Compressor
 maxBoost: 2.5
-size: 2
+size: 3
 drawer:
 {
     type: DrawLiquid
@@ -16,6 +17,7 @@ requirements:
 description: "Accelerate the decay process of spore and mix it with oil to make liquid methane tank"
 consumes:
 {
+    power: 2.5
     items: {
         items: [
             spore-pod/1
