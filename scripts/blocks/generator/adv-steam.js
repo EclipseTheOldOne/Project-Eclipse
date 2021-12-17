@@ -1,7 +1,7 @@
 const steamGen = extend(BurnerGenerator, "adv-steam-gen", {
     generateFx: Fx.smeltsmoke
 });
-steamGen.consumes.add(extend(ConsumeCoolant, 0.15, {optional: true}))
+steamGen.consumes.add(extend(ConsumeCoolant, 0.15, {optional: true}));
 steamGen.buildType = () => extend(BurnerGenerator.BurnerGeneratorBuild, steamGen, {
     update(){
         eff: 0.0

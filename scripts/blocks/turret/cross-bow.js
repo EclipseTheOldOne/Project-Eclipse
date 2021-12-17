@@ -5,7 +5,6 @@ basicCrossBow.buildType = () => extend(ItemTurret.ItemTurretBuild, basicCrossBow
     shoot(type){
         this.super$shoot(type);
         this.a++
-        print(basicCrossBow.tr2)
         if(this.a >= 3){ammolib.smallSkillArrow.create(this, this.team, this.x, this.y, this.rotation, 1 ,1); this.a = 0};
     },
     draw(){

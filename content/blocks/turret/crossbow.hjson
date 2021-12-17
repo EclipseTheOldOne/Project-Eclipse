@@ -11,6 +11,7 @@ category: turret
 targetAir: true
 targetGround: true
 inaccuracy: 3.5
+shootSound: mindus-crossbowShot
 reloadTime: 40
 rotateSpeed: 9
 range: 220

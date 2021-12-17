@@ -1,0 +1,20 @@
+name: Reflector
+health: 3500
+size: 2
+description: "A wall designed to [sky]release a pulse wave that damage enermy on impact with bullet\nRequire water."
+insulated: true
+consumes:
+{
+    liquid: {
+        liquid: water
+        amount: 0.05
+    }
+}
+category: defense
+requirements:
+[
+    surge-alloy/32
+    phase-fabric/8
+    plastanium/18
+]
+update: true
