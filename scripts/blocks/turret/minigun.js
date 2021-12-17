@@ -4,11 +4,11 @@ mBolt.buildType = () => extend(ItemTurret.ItemTurretBuild, mBolt, {
     update(){
         this.super$update();
         if(this.isShooting()){
-            this.a = Mathf.clamp(this.a + 0.007, 0.1, 1.8)
+            this.a = Mathf.clamp(this.a + 0.007, 0.1, 3)
         }else{
-            this.a = Mathf.clamp(this.a - 0.015, 0.1, 1.8)
+            this.a = Mathf.clamp(this.a - 0.015, 0.1, 3)
         };
-        print(this.a)
+        mBolt.inaccuracy = this.a * 3
     },
     baseReloadSpeed() {
         return this.efficiency() * this.a;
