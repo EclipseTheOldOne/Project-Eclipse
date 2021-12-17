@@ -1,5 +1,13 @@
 health: 430
 size: 2
+requirements:
+[
+    copper/45
+    lead/55
+    graphite/25
+    titanium/25
+]
+category: turret
 targetAir: true
 targetGround: true
 inaccuracy: 3.5
@@ -9,8 +17,17 @@ range: 220
 description: "A long, powerful tower, shoot with decent speed (wip)\n[accent]Shoot an powerful bolt every 3rd shoot, penetrate though all enermy."
 ammoTypes: 
 {
-    copper:
-    {
-        
+    copper: {
+        type: BasicBulletType
+        sprite: mindus-small-arrow-copper
+        height: 32
+        lightOpacity: 0
+        layer: 99.999
+        backColor: ffffff00
+        frontColor: ffffff
+        width: 8
+        lifetime: 33.85
+        speed: 6.5
+        damage: 10
     }
 }

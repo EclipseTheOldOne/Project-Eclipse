@@ -1,4 +1,3 @@
-type: ItemTurret
 spread: 10
 shootLength: 6
 size: 2
@@ -16,12 +15,12 @@ requirements:
 ]
 burstSpacing: 5
 alternate: true
-reloadTime: 25
+reloadTime: 15
 category: turret
 recoilAmount: 1
 rotateSpeed: 8
 range: 190
-description: "Fast, Strong, Far!\n[accent]Amazing!"
+description: "The longer it shoot, the faster it reload\n[accent]Reload speed are accelerated as long as the turret shooting."
 ammoTypes: {
     copper: {
         type: BasicBulletType

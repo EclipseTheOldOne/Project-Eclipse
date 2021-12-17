@@ -7,7 +7,6 @@ const therM = extend(ThermalGenerator, "thermal-boiler", {
     }
 });
 therM.generateEffect = Fx.redgeneratespark;
-var progressAdd
 therM.buildType = () => extend(ThermalGenerator.ThermalGeneratorBuild, therM, {
     update(){
         this.super$update();
