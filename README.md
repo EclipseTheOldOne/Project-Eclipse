@@ -8,14 +8,14 @@ Another mindustry mod, i guess - Eclipse
 - Spray bullet every where when you clicked the button inside the block.
 - Support logic.
 
-##Crossbow, and Machine gun
+## Crossbow, and Machine gun
 
 ![Crossbow and MachineGun](/github/Screenshot_26.png)
 
 -Crossbow: Shoot extra projectile every 3rd shot.
 -Machine Gun: Shoot faster and faster.
 
-##Generators
+## Generators
 
 ![generators](/github/Screenshot_17.png)
 
