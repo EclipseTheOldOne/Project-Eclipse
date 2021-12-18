@@ -1,0 +1,24 @@
+health: 350
+size: 2
+requirements: [
+    copper/65
+    lead/45
+    graphite/30
+]
+configurable: true
+range: 120
+hasItems: true
+itemCapacity: 25
+consumes: {
+    items: {
+        items: [
+            graphite/7
+        ]
+    }
+}
+description: "A sprayer, break graphite and shoot it everywhere\n[#8a73c6]Use Logic Control: Enable 1 to automatically shoot!"
+details: "Why, you ask?\nBecause it's [red]Fun."
+category: effect
+research: scatter
+acceptCoolant: false
+playerControllable: false

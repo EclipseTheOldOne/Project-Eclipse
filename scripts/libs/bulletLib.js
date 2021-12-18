@@ -27,7 +27,23 @@ const pulseBullet = extend(BasicBulletType, 0, 0, "circle-bullet", {
     backColor: Color.valueOf("ffffff00"),
     despawnEffect: effectLib.pulseWave
 });
+const siloBullet = extend(BasicBulletType, 5, 35, "shell", {
+    height: 16,
+    width: 6.5,
+    splashDamage: 15,
+    splashDamageRadius: 24,
+    lifetime: 24,
+    trailLength: 10,
+    knockback: 4,
+    trailColor: Pal.bulletYellowBack,
+    trailWidth: 2.75,
+    backColor: Pal.bulletYellowBack,
+    hitEffect: Fx.flakExplosion,
+    despawnEffect: Fx.flakExplosion,
+    frontColor: Pal.bulletYellow
+})
 module.exports = {
     smallSkillArrow:smallSkillArrow,
-    pulseBullet:pulseBullet
+    pulseBullet:pulseBullet,
+    siloBullet:siloBullet
 }

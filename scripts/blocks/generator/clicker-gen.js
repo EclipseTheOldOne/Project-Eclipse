@@ -1,4 +1,4 @@
-const clicker = extend(PowerGenerator, "clicker", {
+const clicker = extend(PowerGenerator, "clicker-generator", {
     setBars(){
         this.super$setBars()
         this.bars.remove("power")
