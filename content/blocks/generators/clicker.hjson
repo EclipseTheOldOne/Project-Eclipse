@@ -1,0 +1,20 @@
+health: 250
+size: 2
+name: Clicker Generator
+powerProduction: 5
+hasPower: true
+outputsPower: true
+configurable: true
+consumes:
+{
+    power: 0.1
+}
+description: "A modified generator that generate power when you click it (+25% efficiency every click, maxium 100%)\n[accent]5% Efficiency decrease every second"
+requirements:
+[
+    copper/75
+    lead/25
+]
+research: core-shard
+alwaysUnlocked: true
+category: power

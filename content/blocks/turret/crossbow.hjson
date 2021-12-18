@@ -1,0 +1,67 @@
+health: 430
+size: 2
+requirements:
+[
+    copper/45
+    lead/55
+    graphite/25
+    titanium/25
+]
+category: turret
+targetAir: true
+targetGround: true
+inaccuracy: 3.5
+shootSound: mindus-crossbowShot
+reloadTime: 40
+rotateSpeed: 9
+range: 220
+description: "A long, powerful tower, shoot with decent speed\n[accent]Shoot an powerful bolt every 3rd shoot, penetrate though all enermy."
+ammoTypes: 
+{
+    copper: {
+        type: BasicBulletType
+        sprite: mindus-small-arrow-copper
+        height: 32
+        lightOpacity: 0
+        layer: 99.999
+        backColor: ffffff00
+        frontColor: ffffff
+        width: 8
+        lifetime: 33.85
+        speed: 6.5
+        damage: 23
+    }
+    titanium: {
+        type: BasicBulletType
+        sprite: mindus-small-arrow-titanium
+        height: 32
+        lightOpacity: 0
+        layer: 99.999
+        backColor: ffffff00
+        frontColor: ffffff
+        width: 8
+        lifetime: 33.85
+        speed: 6.5
+        damage: 32
+        pierce: true
+        pierceCap: 2
+    }
+    blast-compound: {
+        type: BasicBulletType
+        sprite: mindus-small-arrow-blast
+        height: 20
+        lightOpacity: 0
+        layer: 99.999
+        backColor: ffffff00
+        frontColor: ffffff
+        width: 8
+        lifetime: 33.85
+        speed: 6.5
+        damage: 13
+        splashDamageRadius: 33.75
+        splashDamage: 31
+        status: blasted
+        hitEffect: blastExplosion
+        despawnEffect: blastExplosion
+    }
+}

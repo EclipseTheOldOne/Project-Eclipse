@@ -1,11 +1,17 @@
-const basicCrossBow = extend(ItemTurret, "crossbow", {
-    health: 430,
-    size: 2,
-    targetAir: true,
-    targetGround: true,
-    inaccuracy: 3.5,
-    reloadTime: 40,
-    rotateSpeed: 9,
-    range: 220,
-    description: "A long, powerful tower, shoot with decent speed (wip)\n[accent]Shoot an powerful bolt every 3rd shoot, penetrate though all enermy.",
+const ammolib = require("libs/bulletLib")
+const basicCrossBow = extend(ItemTurret, "crossbow", {})
+basicCrossBow.buildType = () => extend(ItemTurret.ItemTurretBuild, basicCrossBow, {
+    a: 0,
+    shoot(type){
+        this.super$shoot(type);
+        this.a++
+        if(this.a >= 3){ammolib.smallSkillArrow.create(this, this.team, this.x, this.y, this.rotation, 1 ,1); this.a = 0};
+    },
+    draw(){
+        this.super$draw();
+        Draw.alpha(this.reload / basicCrossBow.reloadTime);
+        Draw.rect("mindus-small-arrow-copper", this.x + basicCrossBow.tr2.x, this.y + basicCrossBow.tr2.y, this.rotation - 90);
+        Draw.alpha(1)
+        Draw.rect("mindus-crossbow-top", this.x + basicCrossBow.tr2.x, this.y + basicCrossBow.tr2.y, this.rotation - 90);
+    }
 })

@@ -1,12 +1,9 @@
-type: ItemTurret
-spread: 10
 shootLength: 6
 size: 2
 name: Bolt
 health: 550
 targetAir: true
 targetGround: true
-shots: 2
 inaccuracy: 3
 requirements:
 [
@@ -14,20 +11,18 @@ requirements:
     lead/45
     graphite/65
 ]
-burstSpacing: 5
-alternate: true
-reloadTime: 25
+reloadTime: 20
 category: turret
 recoilAmount: 1
 rotateSpeed: 8
 range: 190
-description: "Fast, Strong, Far!\n[accent]Amazing!"
+description: "The longer it shoot, the faster it reload\n[accent]Reload speed are accelerated as long as the turret shooting (Maxium up to 300% speed!).\n[red]Inaccuracy is multiplied by acceleration!"
 ammoTypes: {
     copper: {
         type: BasicBulletType
         lifetime: 35
         speed: 5.45
-        damage: 20
+        damage: 12
         height: 23
         width: 8
         hitEffect: {
