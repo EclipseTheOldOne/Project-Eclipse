@@ -1,0 +1,28 @@
+health: 1350
+size: 3
+name: Mend Silo
+requirements: [
+    plastanium/75
+    phase-fabric/35
+    titanium/75
+    silicon/80
+    surge-alloy/45
+]
+configurable: true
+range: 180
+hasItems: true
+itemCapacity: 25
+consumes: {
+    items: {
+        items: [
+            phase-fabric/4
+        ]
+    }
+    power: 5
+}
+description: "A support version of [accent]Scatter Silo[], cast a pulse that heal and temporally boost nearby block\n[#8a73c6]Use Logic Control: Enable 1 to automatically shoot!\n[red]Only placeable by replace on vault, why? \n-Why not!"
+details: "Why, you ask?\nBecause it's [red]Fun."
+category: effect
+research: scatter
+acceptCoolant: false
+playerControllable: false

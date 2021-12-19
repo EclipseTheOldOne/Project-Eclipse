@@ -22,7 +22,7 @@ wall.buildType = ent => extend(Wall.WallBuild, wall, {
     collision(bullet){
         this.super$collision(bullet);
         Sounds.laser.at(bullet.x, bullet.y, 0.4);
-        if(this.reload >= 1){
+        if(this.reload >= 1 && this.cons.valid()){
             lib.pulseBullet.create(this, this.team, this.x, this.y, 0);
             this.reload = 0
         };

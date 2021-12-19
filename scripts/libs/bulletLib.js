@@ -18,6 +18,8 @@ const pulseBullet = extend(BasicBulletType, 0, 0, "circle-bullet", {
     height: 8,
     width: 8,
     instantDisappear: true,
+    status: StatusEffects.unmoving,
+    statusDuration: 60,
     splashDamage: 15,
     splashDamageRadius: 110,
     lifeTime: 1,
@@ -31,7 +33,7 @@ const siloBullet = extend(BasicBulletType, 5, 35, "shell", {
     height: 16,
     width: 6.5,
     splashDamage: 15,
-    splashDamageRadius: 24,
+    splashDamageRadius: 48,
     lifetime: 24,
     trailLength: 10,
     knockback: 4,
@@ -41,9 +43,22 @@ const siloBullet = extend(BasicBulletType, 5, 35, "shell", {
     hitEffect: Fx.flakExplosion,
     despawnEffect: Fx.flakExplosion,
     frontColor: Pal.bulletYellow
-})
+});
+const domeSiloBullet = extend(EmpBulletType, {
+    instantDisappear: true,
+    healPercent: 7.5,
+    radius: 180,
+    damage: 15,
+    status: StatusEffects.electrified,
+    splashDamage: 45,
+    splashDamageRadius: 180,
+    timeDuration: 145,
+    timeIncrease: 3.5,
+    despawnEffect: effectLib.mendWave
+});
 module.exports = {
     smallSkillArrow:smallSkillArrow,
     pulseBullet:pulseBullet,
-    siloBullet:siloBullet
+    siloBullet:siloBullet,
+    domeSiloBullet:domeSiloBullet,
 }
