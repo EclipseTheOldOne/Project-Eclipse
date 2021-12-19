@@ -12,6 +12,7 @@ const clicker = extend(PowerGenerator, "clicker-generator", {
 clicker.buildType = () => extend(PowerGenerator.GeneratorBuild, clicker, {
     reloadE: 0.0,
     eff: 0.0,
+    displayEff: 0.1,
     buildConfiguration(table){
         this.super$buildConfiguration(table)
         table.button(Icon.power, () => {
@@ -20,19 +21,21 @@ clicker.buildType = () => extend(PowerGenerator.GeneratorBuild, clicker, {
     },
     update(){
         this.super$update();
-        if(this.reloadE >= 1){
-            this.reloadE = 0
-            this.eff = Mathf.clamp(this.eff - 0.05, 0, 1)
-        }else{this.reloadE += 0.016667}
+        this.eff = Mathf.clamp(this.eff - 1 / 10 / 60, 0, 1)
         this.productionEfficiency = this.eff
+        this.displayEff += (this.eff - this.displayEff) / 5
     },
     draw(){
         this.super$draw()
         Draw.rect("mindus-clicker-generator", this.x, this.y);
         Draw.blend(Blending.additive);
         Draw.color(Color.valueOf("e58956"))
-        Draw.alpha(this.eff);
+        Draw.alpha(this.displayEff);
         Draw.rect("mindus-clicker-generator-glow", this.x, this.y);
         Draw.blend();
+    },
+    status(){
+        if(this.eff >= 0.2){return BlockStatus.active}else{return BlockStatus.noOutput}
+        return BlockStatus.noInput
     }
 });
