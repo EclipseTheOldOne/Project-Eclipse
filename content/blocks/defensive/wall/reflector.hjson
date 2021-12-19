@@ -1,7 +1,7 @@
 name: Reflector
-health: 3500
+health: 4080
 size: 2
-description: "A wall designed to [sky]release a pulse wave that damage enermy on impact with bullet\nRequire water."
+description: "A wall designed to [sky]release a pulse wave that damage and stun enermy for a short time on impact with bullet\nRequire water."
 insulated: true
 consumes:
 {

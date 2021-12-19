@@ -1,7 +1,9 @@
 health: 350
 size: 2
+name: Scatter Silo
 requirements: [
     copper/65
+    titanium/25
     lead/45
     graphite/30
 ]
@@ -16,7 +18,7 @@ consumes: {
         ]
     }
 }
-description: "A sprayer, break graphite and shoot it everywhere\n[#8a73c6]Use Logic Control: Enable 1 to automatically shoot!"
+description: "A sprayer, break graphite and shoot it everywhere\n[#8a73c6]Use Logic Control: Enable 1 to automatically shoot!\n[red]Only placeable by replace on container, why? -Why not!"
 details: "Why, you ask?\nBecause it's [red]Fun."
 category: effect
 research: scatter

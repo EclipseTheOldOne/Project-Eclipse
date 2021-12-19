@@ -1,5 +1,6 @@
 health: 430
 size: 2
+name: Pierce
 requirements:
 [
     copper/45
