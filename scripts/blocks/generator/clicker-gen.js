@@ -35,7 +35,7 @@ clicker.buildType = () => extend(PowerGenerator.GeneratorBuild, clicker, {
         Draw.blend();
     },
     status(){
-        if(this.eff >= 0.2){return BlockStatus.active}else{return BlockStatus.noOutput}
+        if(this.eff >= 0.2){return BlockStatus.active}else{if(this.eff > 0){return BlockStatus.noOutput}}
         return BlockStatus.noInput
     }
 });
