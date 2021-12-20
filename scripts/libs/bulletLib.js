@@ -46,7 +46,7 @@ const siloBullet = extend(BasicBulletType, 5, 35, "shell", {
 });
 const domeSiloBullet = extend(EmpBulletType, {
     instantDisappear: true,
-    healPercent: 7.5,
+    healPercent: 55,
     radius: 180,
     damage: 15,
     status: StatusEffects.electrified,
