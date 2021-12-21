@@ -22,11 +22,11 @@ sporeHavester.buildType = () => extend(GenericCrafter.GenericCrafterBuild, spore
     bladeRotation: 0,
     update(){
         this.super$update()
-        this.counter++
+        this.counter + Time.delta
         this.bladeRotation += this.efficiency() * 5
         if(this.counter >= 60){
-            for(var i = 0; i < 7 * 8; i += 8){
-                for(var j = 0; j < 7 * 8; j += 8){
+            for(var i = 0; i < 56; i += 8){
+                for(var j = 0; j < 56; j += 8){
                     if(!Vars.world.tileWorld(this.x + i - 24, this.y + j - 24).solid()){this.spaceEffResult += 1 / 49}
                 }
             }

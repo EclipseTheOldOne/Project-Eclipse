@@ -1,0 +1,12 @@
+size: 3
+speed: 10
+health: 175
+requirements:
+[
+    copper/75
+    lead/45
+    graphite/35
+]
+description: "Behold, the grand router!\n[red]Designer shall fear away!"
+name: Dispenser
+separateItemCapacity: true
