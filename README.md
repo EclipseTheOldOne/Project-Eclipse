@@ -25,3 +25,5 @@ Another mindustry mod, i guess - Eclipse
 - Heat Differency Generator: Generate based on inputted coolant and fuel.
 
 - Clicker Generator: Click = Power.
+
+## And Many More!
