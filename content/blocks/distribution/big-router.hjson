@@ -7,6 +7,5 @@ requirements:
     lead/45
     graphite/35
 ]
-description: "Behold, the grand router!\n[red]Designer shall fear away!"
+description: "Behold, the grand router!\n[accent]Able to store different items at once"
 name: Dispenser
-separateItemCapacity: true
