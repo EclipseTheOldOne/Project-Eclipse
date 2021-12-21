@@ -29,23 +29,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sprites/blocks/drills/phase-drill" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sprites/unit/air/support" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\unit\air\support" />
       <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\drills\phase-drill" />
       <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\distribution" />
       <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\crafter\spore-havester" />
       <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\turret\dome-silo" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\blocks\turret" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\unit\support" />
       <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\crafter\spore-havester" />
       <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\blocks\generators\heat.hjson" />
       <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\github" />
       <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\turret\scatter-silo" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\generators\clicker-generator" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

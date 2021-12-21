@@ -30,10 +30,6 @@ phaseDrill.buildType = () => extend(Drill.DrillBuild, phaseDrill, {
             }
         }
     },
-    drawSelect(){
-        this.super$drawSelect()
-        Drawf.dashCircle(this.x, this.y, this.range, this.team.color)
-    },
     draw(){
         this.super$draw()
         Draw.color(Pal.accent)
@@ -41,5 +37,17 @@ phaseDrill.buildType = () => extend(Drill.DrillBuild, phaseDrill, {
         Fill.poly(this.x, this.y, 6, 4, Time.time)
         Draw.color(Pal.accentBack)
         Lines.poly(this.x, this.y, 6, 4, Time.time)
+    },
+    drawSelect(){
+        this.super$drawSelect()
+        Drawf.dashCircle(this.x, this.y, this.range, this.team.color)
+        if(this.targetBlock != null){
+            var distance = this.dst(this.targetBlock)
+            if(distance < this.range){
+                Drawf.select(this.targetBlock.x, this.targetBlock.y, this.targetBlock.block.size * 4, this.team.color)
+                Drawf.select(this.x, this.y, this.size * 4, this.team.color)
+                Drawf.dashLine(this.team.color, this.x, this.y, this.targetBlock.x, this.targetBlock.y)
+            }
+        }
     }
 })

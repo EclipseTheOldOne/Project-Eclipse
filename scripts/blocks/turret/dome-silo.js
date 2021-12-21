@@ -21,7 +21,7 @@ domeSilo.buildType = () => extend(Turret.TurretBuild, domeSilo, {
     reload: 0.0,
     update(){
         this.super$update();
-        this.reload = Mathf.clamp(0.0166667 / 5 * Time.delta + this.reload, 0, 1)
+        if(this.cons.valid()){this.reload = Mathf.clamp(this.edelta() * 0.0166667 / 5 * Time.delta + this.reload, 0, 1)}
     },
     buildConfiguration(table){
         this.super$buildConfiguration(table);
