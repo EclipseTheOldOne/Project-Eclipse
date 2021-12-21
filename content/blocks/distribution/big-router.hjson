@@ -9,4 +9,3 @@ requirements:
 ]
 description: "Behold, the grand router!\n[red]Designer shall fear away!"
 name: Dispenser
-separateItemCapacity: true
