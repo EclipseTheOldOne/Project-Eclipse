@@ -1,0 +1,24 @@
+size: 3
+health: 175
+requirements:
+[
+    lead/75
+    silicon/60
+    graphite/25
+    phase-fabric/25
+    thorium/55
+]
+description: "Mine items and send them to the nearest container in range"
+name: Phase Drill
+tier: 4
+consumes: {
+    power: 3.5
+    liquid: {
+        liquid: water
+        amount: 0.15
+        booster: true
+        optional: true
+    }
+}
+category: production
+outputsPower: true
