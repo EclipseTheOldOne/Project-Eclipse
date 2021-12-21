@@ -13,11 +13,13 @@ grandRouter.buildType = () => extend(Router.RouterBuild, grandRouter, {
     update(){
         this.super$update()
         this.drawRotation += this.items.total() / 5 * Time.delta
+
         this.dump(null)
     },
     acceptItem(source, item){
         return this.team == source.team && this.items.get(item) < this.getMaximumAccepted(item)
     },
+    updateTile(){},
     draw(){
         this.super$draw()
         Drawf.spinSprite(grandRouter.gearA, this.x - 5, this.y + 5, this.drawRotation * 3)
