@@ -8,4 +8,5 @@ require("blocks/turret/minigun");
 require("blocks/crafter/spore-havester");
 require("blocks/defense/shootWall")
 require("blocks/distribution/big-router")
+require("blocks/distribution/phase-bridge")
 require("blocks/drill/phase-drill")

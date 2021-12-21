@@ -1,0 +1,16 @@
+size: 2
+speed: 10
+health: 375
+description: "Item inputted are sended to Florid- i mean your core\n[accent]Require a huge amount of water"
+requirements:
+[
+    surge-alloy/35
+    phase-fabric/25
+    lead/75
+    graphite/45
+    silicon/55
+]
+consumes:
+{
+    power: 7.5
+}
