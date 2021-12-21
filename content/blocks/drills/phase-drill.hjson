@@ -8,7 +8,7 @@ requirements:
     phase-fabric/25
     thorium/55
 ]
-description: "Mine items and send them to the nearest container in range"
+description: "Mine items and send them to the nearest container in , conduct power and liquids to drills that's next to it"
 name: Phase Drill
 tier: 4
 consumes: {
@@ -22,3 +22,4 @@ consumes: {
 }
 category: production
 outputsPower: true
+liquidCapacity: 50

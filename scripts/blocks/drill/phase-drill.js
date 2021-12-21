@@ -13,6 +13,7 @@ phaseDrill.buildType = () => extend(Drill.DrillBuild, phaseDrill, {
     range: 120,
     update(){
         this.super$update()
+        this.dumpLiquid(Liquids.water)
         var targeted = Vars.indexer.findClosestFlag(this.x, this.y, this.team, BlockFlag.storage)
         if(targeted != null){
             this.targetBlock = targeted.build
