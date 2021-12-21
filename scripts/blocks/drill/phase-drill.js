@@ -1,7 +1,11 @@
 const phaseDrill = extend(Drill, "phase-drill", {
+    canReplace(other){
+        this.super$canReplace(other);
+        return other == Blocks.laserDrill
+    },
     drawPlace(x, y, rotation, valid){
-        this.super$drawPlace(x, y, rotation, valid)
-        Drawf.dashCircle(x, y, 120, Pal.placing)
+        this.super$drawPlace(x, y, rotation, valid);
+        if(!valid){this.drawPlaceText("Can only be placed on Laser Drill!", x, y, false)}
     }
 })
 phaseDrill.buildType = () => extend(Drill.DrillBuild, phaseDrill, {
