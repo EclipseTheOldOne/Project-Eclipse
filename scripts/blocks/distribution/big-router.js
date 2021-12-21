@@ -13,9 +13,10 @@ grandRouter.buildType = () => extend(Router.RouterBuild, grandRouter, {
     update(){
         this.super$update()
         this.drawRotation += this.items.total() / 5 * Time.delta
+        this.dump(null)
     },
     acceptItem(source, item){
-        return this.team == source.team && this.items.total() < grandRouter.itemCapacity
+        return this.team == source.team && this.items.get(item) < this.getMaximumAccepted(item)
     },
     draw(){
         this.super$draw()
