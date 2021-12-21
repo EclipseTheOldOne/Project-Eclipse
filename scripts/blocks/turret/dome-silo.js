@@ -21,13 +21,12 @@ domeSilo.buildType = () => extend(Turret.TurretBuild, domeSilo, {
     reload: 0.0,
     update(){
         this.super$update();
-        this.reload = Mathf.clamp(0.0166667 / 5 + this.reload, 0, 1)
+        this.reload = Mathf.clamp(0.0166667 / 5 * Time.delta + this.reload, 0, 1)
     },
     buildConfiguration(table){
         this.super$buildConfiguration(table);
         table.button(Icon.grid, () => {
             if(this.cons.valid() && !Vars.state.isPaused() && this.reload >= 1){
-                Fx.flakExplosion.at(this.x, this.y)
                 this.consume();
                 this.reload = 0
                 lib.domeSiloBullet.create(this, this.team, this.x, this.y, 0)
@@ -58,7 +57,6 @@ domeSilo.buildType = () => extend(Turret.TurretBuild, domeSilo, {
         this.super$control(type, p1, p2, p3, p4)
         if(type == LAccess.enabled && p1 == 1){
             if(this.cons.valid() && !Vars.state.isPaused() && this.reload >= 1){
-                Fx.flakExplosion.at(this.x, this.y)
                 this.consume();
                 this.reload = 0
                 lib.domeSiloBullet.create(this, this.team, this.x, this.y, 0)

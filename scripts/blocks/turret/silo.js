@@ -21,7 +21,7 @@ scatterSilo.buildType = () => extend(Turret.TurretBuild, scatterSilo, {
     reload: 0.0,
     update(){
         this.super$update();
-        this.reload = Mathf.clamp(0.0166667 + this.reload, 0, 1)
+        this.reload = Mathf.clamp(Time.delta * 0.0166667 + this.reload, 0, 1)
     },
     buildConfiguration(table){
         this.super$buildConfiguration(table);
