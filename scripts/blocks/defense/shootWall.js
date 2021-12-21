@@ -11,6 +11,10 @@ const wall = extend(Wall, "reflector", {
             () => Pal.lancerLaser,
             () => entity.reloadE()
         ))
+    },
+    drawPlace(x, y, rotation, valid){
+        this.super$drawPlace(x, y, rotation, valid)
+        Drawf.dashCircle(x, y, 96, Pal.placing)
     }
 });
 wall.buildType = ent => extend(Wall.WallBuild, wall, {
