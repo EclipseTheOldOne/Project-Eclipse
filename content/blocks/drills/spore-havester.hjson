@@ -24,4 +24,3 @@ hasLiquid: true
 description: "Havest spore around the block and grow them.\n[sky]require a 7x7 area of non-solid block for maximum efficiency\n[sky]conduct power and liquids to blocks next to it"
 liquidCapacity: 120
 itemCapacity: 25
-outputsPower: true
