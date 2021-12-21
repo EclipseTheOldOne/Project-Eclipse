@@ -20,10 +20,10 @@ grandRouter.buildType = () => extend(Router.RouterBuild, grandRouter, {
     draw(){
         this.super$draw()
         Drawf.spinSprite(grandRouter.gearA, this.x - 5, this.y + 5, this.drawRotation * 3)
+        Drawf.spinSprite(grandRouter.gearC, this.x, this.y, this.drawRotation)
         Drawf.spinSprite(grandRouter.gearA, this.x + 5, this.y - 5, this.drawRotation * 4)
         Drawf.spinSprite(grandRouter.gearB, this.x + 5, this.y + 5, this.drawRotation * 2)
         Drawf.spinSprite(grandRouter.gearB, this.x - 5, this.y - 5, this.drawRotation * 5)
-        Drawf.spinSprite(grandRouter.gearC, this.x, this.y, this.drawRotation)
         Draw.rect(grandRouter.top, this.x, this.y)
     }
 })
