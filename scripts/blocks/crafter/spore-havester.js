@@ -22,7 +22,6 @@ sporeHavester.buildType = () => extend(GenericCrafter.GenericCrafterBuild, spore
     bladeRotation: 0,
     update(){
         this.super$update()
-        this.dumpLiquid(Liquids.water)
         this.counter + Time.delta
         this.bladeRotation += this.efficiency() * 5
         if(this.counter >= 60){
