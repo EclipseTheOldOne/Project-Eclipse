@@ -23,3 +23,4 @@ consumes: {
 category: production
 outputsPower: true
 liquidCapacity: 50
+configurable: true

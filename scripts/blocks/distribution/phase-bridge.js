@@ -17,13 +17,13 @@ phaseB.buildType = () => extend(Router.RouterBuild, phaseB, {
             this.reload += Time.delta
         }
         if(distance <= phaseB.range){
-            if(this.targetBlock != null && this.items.total() > 0 && this.reload > 1){
+            if(this.targetBlock != null && this.items.total() > 0 && this.reload >= 2){
                 if(this.targetBlock.acceptItem(this.targetBlock, this.items.first())){
                     this.targetBlock.handleItem(this, this.items.first());
                     eLib.itemSlowTransfer.at(this.x, this.y, 1, this.items.first().color, this.targetBlock)
                     this.items.take()
                 }
-                this.reload = 0
+                this.reload -= 2
             }
         }
     },
