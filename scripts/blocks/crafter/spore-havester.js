@@ -16,7 +16,7 @@ const sporeHavester = extend(GenericCrafter, "spore-havester", {
     },
     drawPlace(x, y, rotation, valid){
         this.super$drawPlace(x, y, rotation, valid)
-        Drawf.select(x * 8, y * 8, (2 + this.size) * 4, this.team.color)
+        Drawf.select(x * 8, y * 8, (4 + this.size) * 4, Pal.accent)
     }
 })
 sporeHavester.buildType = () => extend(GenericCrafter.GenericCrafterBuild, sporeHavester, {
@@ -35,6 +35,10 @@ sporeHavester.buildType = () => extend(GenericCrafter.GenericCrafterBuild, spore
         this.counter = 0
         this.spaceEff = this.spaceEffResult + 9 / 49
         this.spaceEffResult = 0
+    },
+    drawSelect(){
+        this.super$drawSelect()
+        Drawf.select(this.x, this.y, (4 + sporeHavester.size) * 4, Pal.accent)
     },
     efficiency(){
         this.super$efficiency()
