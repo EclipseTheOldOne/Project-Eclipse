@@ -6,7 +6,7 @@ const phaseDrill = extend(Drill, "phase-drill", {
     },
     drawPlace(x, y, rotation, valid){
         this.super$drawPlace(x, y, rotation, valid);
-        Drawf.dashCircle(x, y, 120, Pal.accent)
+        Drawf.dashCircle(x * 8, y * 8, 120, Pal.accent)
         if(!valid){this.drawPlaceText("Can only be placed on Laser Drill!", x, y, false)}
     }
 })

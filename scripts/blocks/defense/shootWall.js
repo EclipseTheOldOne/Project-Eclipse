@@ -14,7 +14,7 @@ const wall = extend(Wall, "reflector", {
     },
     drawPlace(x, y, rotation, valid){
         this.super$drawPlace(x, y, rotation, valid)
-        Drawf.dashCircle(x, y, 96, Pal.placing)
+        Drawf.dashCircle(x * 8, y * 8, 96, Pal.placing)
     }
 });
 wall.buildType = ent => extend(Wall.WallBuild, wall, {

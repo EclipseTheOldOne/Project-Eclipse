@@ -1,11 +1,16 @@
 const eLib = require("libs/effectLib")
 const phaseB = extend(Router, "phase-bridge", {
     range: 220,
-    itemCapacity: 250
+    itemCapacity: 250,
+    drawPlace(x, y, rotation, valid){
+        this.super$drawPlace(x, y, rotation, valid);
+        Drawf.dashCircle(x * 8, y * 8, 220, Pal.accent)
+    }
 })
 phaseB.buildType = () => extend(Router.RouterBuild, phaseB, {
     targetBlock: null,
     reload: 0,
+    updateTile(){},
     update(){
         this.super$update()
         var a = Vars.indexer.findClosestFlag(this.x, this.y, this.team, BlockFlag.core)

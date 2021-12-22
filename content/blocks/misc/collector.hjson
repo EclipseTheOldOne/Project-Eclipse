@@ -1,0 +1,15 @@
+name: Collector
+description: "Collect dead unit's scrap, have a chance to return various resource, bigger size mean more resource\n[sky]Won't collect if not fully powered."
+size: 3
+requirements:
+[
+    silicon/65
+    graphite/35
+    titanium/45
+    thorium/55
+]
+consumes:
+{
+    power: 4
+}
+health: 750
