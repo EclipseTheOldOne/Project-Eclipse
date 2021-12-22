@@ -1,3 +1,4 @@
+const eLib = require("libs/effectLib")
 const phaseB = extend(Router, "phase-bridge", {
     range: 220,
     itemCapacity: 250
@@ -19,7 +20,7 @@ phaseB.buildType = () => extend(Router.RouterBuild, phaseB, {
             if(this.targetBlock != null && this.items.total() > 0 && this.reload > 1){
                 if(this.targetBlock.acceptItem(this.targetBlock, this.items.first())){
                     this.targetBlock.handleItem(this, this.items.first());
-                    Fx.itemTransfer.at(this.x, this.y, 1, this.items.first().color, this.targetBlock)
+                    eLib.itemSlowTransfer.at(this.x, this.y, 1, this.items.first().color, this.targetBlock)
                     this.items.take()
                 }
                 this.reload = 0

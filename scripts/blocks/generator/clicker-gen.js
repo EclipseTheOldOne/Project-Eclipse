@@ -13,11 +13,9 @@ clicker.buildType = () => extend(PowerGenerator.GeneratorBuild, clicker, {
     reloadE: 0.0,
     eff: 0.0,
     displayEff: 0.1,
-    buildConfiguration(table){
-        this.super$buildConfiguration(table)
-        table.button(Icon.power, () => {
-            this.eff = Mathf.clamp(this.eff + 0.25, 0, 1)
-        })
+    tapped(){
+        this.super$tapped()
+        this.eff = Mathf.clamp(this.eff + 0.25, 0, 1)
     },
     update(){
         this.super$update();
@@ -37,5 +35,9 @@ clicker.buildType = () => extend(PowerGenerator.GeneratorBuild, clicker, {
     status(){
         if(this.eff >= 0.2){return BlockStatus.active}else{if(this.eff > 0){return BlockStatus.noOutput}}
         return BlockStatus.noInput
+    },
+    drawSelect(){
+        this.super$drawSelect()
+        Drawf.select(this.x, this.y, this.size * 8, this.team.color)
     }
 });

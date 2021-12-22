@@ -1,3 +1,4 @@
+const eLib = require("libs/effectLib")
 const phaseDrill = extend(Drill, "phase-drill", {
     canReplace(other){
         this.super$canReplace(other);
@@ -24,7 +25,7 @@ phaseDrill.buildType = () => extend(Drill.DrillBuild, phaseDrill, {
             if(this.targetBlock != null && this.items.total() > 0){
                 if(this.targetBlock.acceptItem(this.targetBlock, this.items.first())){
                     this.targetBlock.handleItem(this, this.items.first());
-                    Fx.itemTransfer.at(this.x, this.y, 1, this.items.first().color, this.targetBlock)
+                    eLib.itemSlowTransfer.at(this.x, this.y, 1, this.items.first().color, this.targetBlock)
                     this.items.take()
                 }
             }
