@@ -46,7 +46,7 @@ phaseDrill.buildType = () => extend(Drill.DrillBuild, phaseDrill, {
             var distance = this.dst(this.targetBlock)
             if(distance < this.range){
                 Drawf.select(this.targetBlock.x, this.targetBlock.y, this.targetBlock.block.size * 4, this.team.color)
-                Drawf.select(this.x, this.y, this.size * 4, this.team.color)
+                Drawf.select(this.x * 8, this.y * 8, this.size * 4, this.team.color)
                 Drawf.dashLine(this.team.color, this.x, this.y, this.targetBlock.x, this.targetBlock.y)
             }
         }
