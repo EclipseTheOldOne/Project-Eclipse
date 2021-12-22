@@ -1,0 +1,27 @@
+health: 450
+tier: 3
+name: Gear Drill
+drillTime: 260
+description: "Mine 20% faster for each gear drill next to it!\n[red]Can only mine titanium or weaker ores."
+size: 2
+liquidBoostIntensity: 1.2
+warmupSpeed: 0.0035
+drillEffectRnd: 0.07
+consumes: {
+    liquid: {
+        liquid: water
+        amount: 0.05
+        booster: true
+        optional: true
+    }
+}
+itemCapacity: 20
+liquidCapacity: 70
+requirements:
+[
+    copper/25
+    titanium/25
+    graphite/35
+]
+research: pneumatic-drill
+category: production
