@@ -18,11 +18,11 @@ const collector = extend(Router, "collector", {
                     for(var i = 0; i < 3; i += Mathf.random(1.0)){
                         libE.itemSlowTransfer.at(u.x, u.y, 13, Pal.accent, a)
                     }
-                    a.items.add(Items.lead, Mathf.ceil(amount) * 5)
+                    a.items.add(Items.lead, Mathf.ceil(amount) * 3)
                     a.items.add(Items.titanium, Mathf.ceil(amount) * 2)
-                    a.items.add(Items.graphite, Mathf.ceil(amount) * 4)
-                    a.items.add(Items.silicon, Mathf.ceil(amount) * 3)
-                    a.items.add(Items.scrap, Mathf.ceil(amount) * 7)
+                    a.items.add(Items.graphite, Mathf.ceil(amount) * 2)
+                    a.items.add(Items.silicon, Mathf.ceil(amount) * 2)
+                    a.items.add(Items.scrap, Mathf.ceil(amount) * 5)
                 }
             }
         })
