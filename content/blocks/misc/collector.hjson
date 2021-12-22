@@ -13,3 +13,4 @@ consumes:
     power: 4
 }
 health: 750
+category: effect
