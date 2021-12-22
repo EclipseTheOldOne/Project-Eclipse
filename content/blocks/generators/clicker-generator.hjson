@@ -14,6 +14,7 @@ requirements:
 [
     copper/75
     lead/25
+    graphite/15
 ]
 research: core-shard
 alwaysUnlocked: true
