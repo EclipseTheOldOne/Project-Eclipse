@@ -4,7 +4,7 @@ name: Clicker Generator
 powerProduction: 5
 hasPower: true
 outputsPower: true
-configurable: true
+consumesTap: true
 consumes:
 {
     power: 0.1
