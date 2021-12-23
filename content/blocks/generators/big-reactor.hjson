@@ -1,0 +1,30 @@
+name: Nuclear Reactor
+description: "An advance thorium reactor, gain 20% efficiency bonus when placed next to other!"
+health: 2350
+size: 4
+drawer: DrawLiquid
+requirements:
+[
+    lead/235
+    graphite/125
+]
+hasPower: true
+hasItems: true
+powerProduction: 34.66667
+hasLiquids: true
+coolantPower: 0.01
+generateEffect: none
+itemDuration: 60
+liquidCapacity: 50
+category: power
+consumes: {
+    liquid: {
+        liquid: cryofluid
+        amount: 0.11
+    }
+    items: {
+        items: [
+            thorium/2
+        ]
+    }
+}

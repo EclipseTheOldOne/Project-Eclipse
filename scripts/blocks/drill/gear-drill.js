@@ -40,6 +40,6 @@ drill.buildType = () => extend(Drill.DrillBuild, drill, {
         Drawf.spinSprite(drill.gearRegion, this.x + 2.75, this.y - 2.75, this.drilledDraw * 2)
         Drawf.spinSprite(drill.gearRegion, this.x - 2.75, this.y - 2.75, this.drilledDraw * 3)
         Draw.rect(drill.topRegion, this.x, this.y)
-        Drawf.liquid(drill.liquidRegion, this.x, this.y, this.liquids.currentAmount(), Liquids.water.color)
+        Drawf.liquid(drill.liquidRegion, this.x, this.y, this.liquids.currentAmount() / drill.liquidCapacity, Liquids.water.color)
     }
 })
