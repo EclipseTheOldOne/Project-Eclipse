@@ -16,9 +16,9 @@ phaseCrafter.buildType = () => extend(GenericCrafter.GenericCrafterBuild, phaseC
     bubbleInterval: 0,
     update(){
         this.super$update()
-        if(this.shouldConsume() && this.cons.valid()){
-            this.drawTime = Mathf.lerpDelta(this.drawTime, this.efficiency(), 0.01)
-        }
+        var a
+        if(this.cons.valid()){a = 1}else(a = 0)
+        this.drawTime = Mathf.lerp(this.drawTime, this.edelta() * a, 0.05)
         this.drawTime2 += this.drawTime
         this.drawPhaseAlpha = Mathf.lerpDelta(this.drawPhaseAlpha, this.progress, 0.2)
         this.bubbleInterval += Mathf.random(0, this.efficiency())
