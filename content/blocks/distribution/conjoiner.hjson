@@ -1,0 +1,9 @@
+health: 175
+requirements:
+[
+    copper/8
+    lead/4
+    graphite/2
+]
+description: "[accent]Able to store different items at once"
+name: Conjoiner

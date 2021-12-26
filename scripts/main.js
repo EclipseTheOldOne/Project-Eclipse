@@ -11,6 +11,7 @@ require("blocks/crafter/spore-havester");
 require("blocks/crafter/big-phase");
 require("blocks/defense/shootWall")
 require("blocks/distribution/big-router")
+require("blocks/distribution/conjoiner")
 require("blocks/distribution/phase-bridge")
 require("blocks/drill/phase-drill")
 require("blocks/drill/gear-drill")
