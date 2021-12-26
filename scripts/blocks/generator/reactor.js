@@ -10,7 +10,7 @@ reactor.buildType = () => extend(NuclearReactor.NuclearReactorBuild, reactor, {
         this.super$updateTile()
         var nearAff = 0
         for(var i = 0; i < this.proximity.size; i++){
-            if(this.proximity.get(i).block == this.block){
+            if(this.proximity.get(i).block == this.block && this.proximity.get(i).productionEfficiency > 0 && this.cons.valid()){
                 nearAff += 0.2
             }
         }

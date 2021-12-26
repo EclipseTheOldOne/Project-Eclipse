@@ -1,0 +1,35 @@
+name: Phase Manufacturer
+description: "Make multiple piece of phase fabric at once, use advance technology with the cost of extra resource required\n[sky]Need time to warmup"
+size: 4
+health: 1280
+warmupSpeed: 0.003
+requirements:
+[
+    titanium/185
+    thorium/60
+    silicon/95
+    graphite/85
+    metaglass/25
+    phase-fabric/45
+]
+category: crafting
+consumes:
+{
+    items: {
+        items: [
+            silicon/2
+            sand/18
+            thorium/7
+        ]
+    }
+    liquid: {
+        liquid: water
+        amount: 0.4
+    }
+    power: 11.5
+}
+outputItem: phase-fabric/4
+craftTime: 90
+liquidCapacity: 120
+itemCapacity: 45
+research: phase-weaver

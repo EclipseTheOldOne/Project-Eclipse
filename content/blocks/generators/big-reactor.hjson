@@ -7,6 +7,10 @@ requirements:
 [
     lead/235
     graphite/125
+    thorium/250
+    plastanium/65
+    silicon/95
+    surge-alloy/69
 ]
 hasPower: true
 hasItems: true
@@ -15,7 +19,7 @@ hasLiquids: true
 coolantPower: 0.01
 generateEffect: none
 itemDuration: 60
-liquidCapacity: 50
+liquidCapacity: 150
 category: power
 consumes: {
     liquid: {
