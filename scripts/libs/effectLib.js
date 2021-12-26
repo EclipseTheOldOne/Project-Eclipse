@@ -25,8 +25,15 @@ const itemSlowTransfer = new Effect(120, e => {
     Draw.color(e.color);
     Fill.circle(x, y, e.fslope() * 1.5 * size);
 })
+const phaseBubble = new Effect(30, e => {
+    Draw.z(Layer.block + 0.001);
+    Draw.color(Pal.accent);
+    Lines.stroke(e.fout() * 2);
+    Lines.circle(e.x, e.y, e.fin() * 2);
+})
 module.exports = {
     pulseWave:pulseWave,
     mendWave:mendWave,
-    itemSlowTransfer:itemSlowTransfer
+    itemSlowTransfer:itemSlowTransfer,
+    phaseBubble:phaseBubble
 };
