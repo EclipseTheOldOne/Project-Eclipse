@@ -9,6 +9,7 @@ require("blocks/turret/dome-silo");
 require("blocks/turret/minigun");
 require("blocks/crafter/spore-havester");
 require("blocks/crafter/big-phase");
+require("blocks/crafter/lab");
 require("blocks/defense/shootWall")
 require("blocks/distribution/big-router")
 require("blocks/distribution/conjoiner")

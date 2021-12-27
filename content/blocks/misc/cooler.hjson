@@ -3,8 +3,10 @@ requirements:
 [
     graphite/35
     metaglass/25
+    titanium/15
+    silicon/25
 ]
-description: "Increase efficiency of blocks next to it"
+description: "A cheap block, [accent]Increase efficiency of blocks next to it"
 size: 2
 category: effect
 consumes: {
