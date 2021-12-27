@@ -1,0 +1,18 @@
+name: Chemical Processor
+description: "Perform advance chemistry, require coolant or it'll explode"
+health: 550
+size: 3
+requirements:
+[
+    lead/55
+    metaglass/35
+    graphite/25
+    silicon/25
+    titanium/35
+]
+category: crafting
+research: liquid-tank
+liquidCapacity: 70
+itemCapacity: 30
+updateEffect: mineBig
+updateEffectChance: 0.07
