@@ -16,5 +16,6 @@ requirements:
     surge-alloy/32
     phase-fabric/8
     plastanium/18
+    dentium/20
 ]
 update: true

@@ -1,5 +1,5 @@
 name: Chemical Processor
-description: "Perform advance chemistry, require coolant or it'll explode"
+description: "Perform advance chemistry"
 health: 550
 size: 3
 requirements:
