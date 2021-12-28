@@ -3,7 +3,7 @@ health: 800
 reloadTime: 30
 range: 120
 powerUse: 3.5
-burstDelay: 3
+burstSpacing: 4
 targetHealing: true
 description: "An improved Healing Turret, shoot burst of homing healing missiles\n[#83f793]Target ally building"
 name: Recover

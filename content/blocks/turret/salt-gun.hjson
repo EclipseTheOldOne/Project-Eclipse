@@ -1,0 +1,75 @@
+name: Crystal
+description: "Shoot rock that quickly exploded into spike that damage enemy"
+health: 750
+burstSpacing: 6
+size: 2
+velocityInaccuracy: 0.3
+requirements:
+[
+    lead/35
+    dentium/20
+    titanium/25
+    metaglass/15
+]
+category: turret
+inaccuracy: 7
+consumes:
+{
+    liquid: {
+        liquid: water
+        amount: 0.1
+    }
+}
+range: 135
+reloadTime: 70
+shots: 3
+rotateSpeed: 9
+ammoTypes:
+{
+    salt: {
+        type: ArtilleryBulletType
+        speed: 4
+        splashDamage: 20
+        splashDamageRadius: 16
+        width: 16
+        trailWidth: 3
+        trailColor: cccedb
+        height: 24
+        hitShake: 1
+        despawnEffect: {
+            type: MultiEffect
+            effects: [
+                {
+                    type: ExplosionEffect
+                    waveColor: cccedb
+                    smokeColor: cccedbae
+                    sparkColor: cccedb
+                }
+                {
+                    type: ParticleEffect
+                    colorFrom: cccedb
+                    colorTo: cccedb
+                    region: "mindus-diamond"
+                }
+            ]
+        }
+        frontColor: ececec
+        backColor: cccedb
+        lightColor: cccedb
+        lifetime: 60
+        fragBullets: 4
+        fragBullet: {
+            sprite: mine-bullet
+            type: BasicBulletType
+            damage: 14
+            speed: 4
+            lifetime: 27.5
+            trailChance: 0.3
+            trailColor: cccedb
+            backColor: cccedb
+            frontColor: ececec
+            height: 15
+            homingPower: 0.3
+        }
+    }
+}

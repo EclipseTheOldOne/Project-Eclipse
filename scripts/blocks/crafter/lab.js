@@ -21,6 +21,17 @@ const multi = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafter
             liquids: ["mindus-conduct-liquid/12"]
         },
         craftTime: 60,
+    },
+    {
+        input: {
+            items: ["mindus-salt/3", "titanium/2"],
+            liquids: ["water/3"],
+            power: 1.5
+        },
+        output: {
+            items: ["mindus-dentium/2"]
+        },
+        craftTime: 60
     }
 ],{
     load(){

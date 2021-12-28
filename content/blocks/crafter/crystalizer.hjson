@@ -1,0 +1,30 @@
+name: Crystalizer
+description: "Crystalize mineral inside water, return solid form and various mineral"
+health: 550
+size: 2
+requirements:
+[
+    lead/35
+    graphite/25
+    titanium/15
+    metaglass/25
+]
+category: crafting
+research: liquid-tank
+liquidCapacity: 70
+consumes:
+{
+    liquid: {
+        liquid: water
+        amount: 0.11
+    }
+}
+itemCapacity: 30
+updateEffect: mineBig
+updateEffectChance: 0.07
+craftTime: 20
+results:
+[
+    salt/3
+    scrap/1
+]
