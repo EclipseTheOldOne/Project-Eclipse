@@ -2,7 +2,6 @@ name: Nuclear Reactor
 description: "An advance thorium reactor, gain 20% efficiency bonus when placed next to other!"
 health: 2350
 size: 4
-drawer: DrawLiquid
 requirements:
 [
     lead/235
@@ -17,7 +16,6 @@ hasItems: true
 powerProduction: 34.66667
 hasLiquids: true
 coolantPower: 0.01
-generateEffect: none
 itemDuration: 60
 liquidCapacity: 150
 category: power

@@ -7,6 +7,6 @@ const saltGun = extend(ItemTurret, "salt-gun", {
 saltGun.buildType = () => extend(ItemTurret.ItemTurretBuild, saltGun, {
     draw(){
         this.super$draw()
-        Drawf.liquid(saltGun.liquidR, this.x, this.y, this.liquids.total(), Liquids.water.color, this.rotation - 90)
+        Drawf.liquid(saltGun.liquidR, this.x + saltGun.tr2.x, this.y + saltGun.tr2.y, this.liquids.total(), Liquids.water.color, this.rotation - 90)
     }
 })
