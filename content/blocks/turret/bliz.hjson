@@ -1,0 +1,105 @@
+type: ItemTurret
+health: 650
+reloadTime: 10
+shots: 3
+burstSpacing: 2
+inaccuracy: 18
+size: 2
+range: 110
+description: "A turret that rapidly shoot frozen shard of rocks"
+name: Bliz
+ammoTypes: {
+    salt: {
+        speed: 4
+        drag: 0.03
+        lifetime: 60
+        status: freezing
+        homingDelay: 20
+        damage: 12
+        homingPower: 1
+        ammoMultiplier: 8
+        trailChance: 1
+        frontColor: 000000ff
+        backColor: 000000ff
+        shootEffect: {
+            type: WaveEffect
+            lifetime: 20
+            sizeFrom: 0
+            sizeTo: 8
+            sides: 6
+            strokeFrom: 3
+            strokeTo: 0
+        }
+        knockback: 0.2
+        hitEffect: {
+            type: ExplosionEffect
+            waveColor: cccedb
+            smokeColor: cccedbae
+            sparkColor: cccedb
+        }
+        lightColor: cccedb
+        trailEffect: {
+            type: WaveEffect
+            lifetime: 20
+            sizeFrom: 1
+            sizeTo: 1
+            sides: 6
+            colorTo: ffffff00
+            strokeFrom: 8
+            strokeTo: 8
+        }
+    }
+    dentium: {
+        speed: 4
+        drag: 0.03
+        lifetime: 60
+        status: freezing
+        homingDelay: 20
+        damage: 16
+        knockback: 1.1
+        homingPower: 1
+        ammoMultiplier: 8
+        trailChance: 1
+        frontColor: 000000ff
+        backColor: 000000ff
+        shootEffect: {
+            type: WaveEffect
+            lifetime: 20
+            sizeFrom: 0
+            sizeTo: 8
+            sides: 6
+            colorFrom: a0a8d9
+            colorTo: 7985c9
+            strokeFrom: 3
+            strokeTo: 0
+        }
+        hitEffect: {
+            type: ExplosionEffect
+            waveColor: 7985c9
+            smokeColor: 7985c9ae
+            sparkColor: 7985c9
+        }
+        lightColor: 7985c9
+        trailEffect: {
+            type: WaveEffect
+            lifetime: 20
+            sizeFrom: 1
+            sizeTo: 1
+            sides: 6
+            colorFrom: a0a8d9
+            colorTo: 7985c900
+            strokeFrom: 8
+            strokeTo: 8
+        }
+    }
+}
+category: turret
+research: salt-gun
+requirements:
+[
+    graphite/25
+    metaglass/45
+    dentium/35
+    titanium/15
+    silicon/25
+]

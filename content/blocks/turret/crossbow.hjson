@@ -15,7 +15,7 @@ inaccuracy: 3.5
 shootSound: mindus-crossbowShot
 reloadTime: 40
 rotateSpeed: 9
-range: 220
+range: 155
 description: "A long, powerful tower, shoot with decent speed\n[accent]Shoot an powerful bolt every 3rd shoot, penetrate though all enermy."
 ammoTypes: 
 {

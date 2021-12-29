@@ -1,0 +1,31 @@
+name: Salt Collector
+description: "a well-designed crystalizer for collecting salt inside water, increase the chance of getting salt and lowered the chance of scrap"
+health: 550
+size: 3
+requirements:
+[
+    lead/75
+    dentium/25
+    metaglass/35
+    silicon/55
+    graphite/25
+    thorium/25
+]
+category: crafting
+research: crystalizer
+liquidCapacity: 140
+consumes:
+{
+    power: 2
+    liquid: {
+        liquid: water
+        amount: 0.33
+    }
+}
+itemCapacity: 45
+craftTime: 15
+results:
+[
+    salt/7
+    scrap/1
+]

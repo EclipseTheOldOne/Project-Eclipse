@@ -20,7 +20,7 @@ consumes:
         amount: 0.1
     }
 }
-range: 135
+range: 185
 reloadTime: 70
 shots: 3
 rotateSpeed: 9
@@ -53,6 +53,15 @@ ammoTypes:
                 }
             ]
         }
+        shootEffect: {
+            type: ParticleEffect
+            lifetime: 25
+            sizeFrom: 12
+            particles: 1
+            spin: 2
+            length: 0
+            region: mindus-point-star
+        }
         frontColor: ececec
         backColor: cccedb
         lightColor: cccedb
@@ -69,6 +78,63 @@ ammoTypes:
             backColor: cccedb
             frontColor: ececec
             height: 15
+            homingPower: 0.3
+        }
+    }
+    dentium: {
+        shootEffect: {
+            type: ParticleEffect
+            lifetime: 25
+            sizeFrom: 12
+            particles: 1
+            spin: 4
+            length: 0
+            colorFrom: a0a8d9
+            colorTo: 7985c9
+            region: mindus-point-star
+        }
+        type: ArtilleryBulletType
+        speed: 5
+        splashDamage: 35
+        splashDamageRadius: 22
+        width: 16
+        trailWidth: 3
+        trailColor: 7985c9
+        height: 24
+        hitShake: 1
+        despawnEffect: {
+            type: MultiEffect
+            effects: [
+                {
+                    type: ExplosionEffect
+                    waveColor: 7985c9
+                    smokeColor: 7985c9
+                    sparkColor: 7985c9
+                }
+                {
+                    type: ParticleEffect
+                    colorFrom: 7985c9
+                    colorTo: 7985c9
+                    region: "mindus-diamond"
+                }
+            ]
+        }
+        frontColor: a0a8d9
+        backColor: 7985c9
+        lightColor: 7985c9
+        lifetime: 60
+        fragBullets: 4
+        fragBullet: {
+            sprite: mine-bullet
+            type: BasicBulletType
+            damage: 24
+            speed: 4
+            lifetime: 27.5
+            trailChance: 0.3
+            trailColor: a0a8d9
+            backColor: 7985c9
+            frontColor: a0a8d9
+            height: 20
             homingPower: 0.3
         }
     }
