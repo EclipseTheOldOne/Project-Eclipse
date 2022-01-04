@@ -1,0 +1,18 @@
+health: 250
+range: 120
+size: 3
+reloadTime: 70
+shootLength: 2.5
+chargeTime: 30
+powerUse: 5.75
+description: "wip"
+name: Quake
+category: turret
+research: lancer
+requirements:
+[
+    lead/125
+    silicon/55
+    titanium/25
+    metaglass/35
+]

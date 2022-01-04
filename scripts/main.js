@@ -6,6 +6,7 @@ require("blocks/generator/reactor")
 require("blocks/turret/cross-bow");
 require("blocks/turret/salt-gun");
 require("blocks/turret/silo");
+require("blocks/turret/quake");
 require("blocks/turret/dome-silo");
 require("blocks/turret/minigun");
 require("blocks/crafter/spore-havester");
@@ -19,4 +20,5 @@ require("blocks/drill/phase-drill")
 require("blocks/drill/gear-drill")
 require("blocks/misc/collector")
 require("blocks/misc/cooler")
+require("blocks/misc/salt-bomb")
 require("blocks/drawer/spin")

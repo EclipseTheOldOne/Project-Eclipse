@@ -4,6 +4,7 @@ health: 750
 burstSpacing: 6
 size: 2
 velocityInaccuracy: 0.3
+research: arc
 requirements:
 [
     lead/35
