@@ -1,0 +1,13 @@
+name: Pressure Bomb
+description: "A cheap shockwave bomb, slowly built up pressure, release manually activated\n[accent]Can only explode when fully charged"
+health: 550
+size: 2
+requirements:
+[
+    lead/25
+    metaglass/15
+    dentium/25
+]
+category: effect
+research: liquid-container
+configurable: true
