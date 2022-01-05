@@ -14,7 +14,7 @@ const collector = extend(Router, "collector", {
             let a = Geometry.findClosest(u.x, u.y, collectBlocks)
             if(a != null && u != null){
                 if(u.within(a, 170) && a.canCollect()){
-                    var amount = Mathf.random(0.3, u.hitSize / 2)
+                    var amount = Mathf.random(0.1, u.hitSize / 3)
                     for(var i = 0; i < 3; i += Mathf.random(1.0)){
                         libE.itemSlowTransfer.at(u.x, u.y, 13, Pal.accent, a)
                     }

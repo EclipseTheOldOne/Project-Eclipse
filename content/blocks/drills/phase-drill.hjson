@@ -1,5 +1,6 @@
 size: 3
 health: 175
+drillTime: 240
 requirements:
 [
     lead/75
