@@ -14,3 +14,4 @@ consumes:
     power: 4.5
 }
 hasPower: true
+category: effect
