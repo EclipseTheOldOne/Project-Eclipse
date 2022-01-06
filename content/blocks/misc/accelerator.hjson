@@ -1,0 +1,16 @@
+name: Accelerator Dome
+description: "Accelerate nearby unit, increase attack damage, fire rate and speed"
+size: 3
+health: 690
+requirements:
+[
+    graphite/45
+    silicon/55
+    plastanium/85
+    thorium/35
+]
+consumes:
+{
+    power: 4.5
+}
+hasPower: true

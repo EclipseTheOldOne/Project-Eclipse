@@ -19,6 +19,15 @@ const mendWave = new Effect(20, e => {
     Draw.alpha(e.fout())
     Fill.circle(e.x, e.y, e.fin() * 180);
 });
+const overDriveWave = new Effect(40, e => {
+    //literally mendWave but overdrive Color'ed
+    var eInterp = Interp.fastSlow
+    Draw.color(Pal.redDust);
+    Lines.stroke(e.fout() * 2);
+    Lines.circle(e.x, e.y, eInterp.apply(e.fin()) * 140);
+    Draw.alpha(e.fout() / 2)
+    Fill.circle(e.x, e.y, eInterp.apply(e.fin()) * 140);
+});
 //basically itemtransfer effect but longer lifetime and use swingIn
 const itemSlowTransfer = new Effect(120, e => {
     if(!(e.data instanceof Position)) return;
@@ -44,11 +53,17 @@ const waterBubble = new Effect(20, e => {
     Lines.stroke(e.fout() * 2);
     Lines.circle(e.x, e.y, e.fin() * 4);
 })
+const overdriveParticle = new Effect(20, e => {
+    Draw.color(Pal.redDust);
+    Fill.poly(e.x, e.y, 4, e.fout() * 4);
+})
 module.exports = {
     pulseWave:pulseWave,
     mendWave:mendWave,
     itemSlowTransfer:itemSlowTransfer,
     phaseBubble:phaseBubble,
     waterBubble:waterBubble,
-    pulseEmpWave:pulseEmpWave
+    pulseEmpWave:pulseEmpWave,
+    overDriveWave:overDriveWave,
+    overdriveParticle:overdriveParticle
 };

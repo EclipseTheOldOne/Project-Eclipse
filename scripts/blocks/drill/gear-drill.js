@@ -4,8 +4,7 @@ const drill = extend(Drill, "gear-drill", {
         this.gearRegion = Core.atlas.find(this.name + "-gear")
         this.topRegion = Core.atlas.find(this.name + "-top")
         this.liquidRegion = Core.atlas.find(this.name + "-liquid")
-    },
-
+    }
 })
 //cope harder
 drill.buildType = () => extend(Drill.DrillBuild, drill, {
