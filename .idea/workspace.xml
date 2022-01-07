@@ -29,23 +29,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sprites/blocks/misc/acceleterator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sprites/blocks/generators/heat/heater" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\misc\acceleterator" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\blocks\misc" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\turret\quake" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\blocks\turret" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\misc\bomb" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\generators\heat\heater" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\liquids" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\blocks\generators" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\defensive\wall" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\blocks\defensive\wall" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\generators\heat\heater" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\scripts\blocks\generator" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\blocks\generators\heat" />
       <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\crafter" />
       <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\distribution\big-router" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\unit\support" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\crafter\spore-havester" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\blocks\generators\heat.hjson" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

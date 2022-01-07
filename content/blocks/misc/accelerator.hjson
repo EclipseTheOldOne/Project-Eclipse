@@ -15,3 +15,4 @@ consumes:
 }
 hasPower: true
 category: effect
+liquidCapacity: 200
