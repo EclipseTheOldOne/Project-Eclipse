@@ -20,7 +20,7 @@ const pulseBullet = extend(BasicBulletType, 0, 0, "circle-bullet", {
     width: 8,
     instantDisappear: true,
     status: StatusEffects.unmoving,
-    statusDuration: 60,
+    statusDuration: 20,
     splashDamage: 15,
     splashDamageRadius: 110,
     lifeTime: 1,

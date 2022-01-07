@@ -21,7 +21,7 @@ const mendWave = new Effect(20, e => {
 });
 const overDriveWave = new Effect(40, e => {
     //literally mendWave but overdrive Color'ed
-    var eInterp = Interp.fastSlow
+    var eInterp = Interp.exp10Out
     Draw.color(Pal.redDust);
     Lines.stroke(e.fout() * 2);
     Lines.circle(e.x, e.y, eInterp.apply(e.fin()) * 140);
