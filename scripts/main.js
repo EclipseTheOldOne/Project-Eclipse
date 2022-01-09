@@ -15,7 +15,7 @@ require("blocks/turret/minigun");
 require("blocks/crafter/spore-havester");
 require("blocks/crafter/big-phase");
 require("blocks/crafter/lab");
-//defendsive
+//defensive
 require("blocks/defense/shootWall")
 require("blocks/defense/laserNode")
 //distribution
@@ -30,5 +30,6 @@ require("blocks/misc/collector")
 require("blocks/misc/cooler")
 require("blocks/misc/salt-bomb")
 require("blocks/misc/accelerator")
+require("blocks/misc/healer")
 //draw-based
 require("blocks/drawer/spin")
