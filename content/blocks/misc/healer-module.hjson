@@ -1,0 +1,15 @@
+health: 550
+requirements:
+[
+    silicon/55
+    phase-fabric/25
+    plastanium/25
+    lead/85
+]
+name: Healer Module
+description: "A healer module, place next to an accelerator to make it also heal units"
+size: 2
+category: effect
+consumes: {
+    power: 7.5
+}
