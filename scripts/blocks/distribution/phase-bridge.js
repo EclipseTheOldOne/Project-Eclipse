@@ -31,7 +31,7 @@ phaseB.buildType = () => extend(Router.RouterBuild, phaseB, {
             if(this.targetBlock.isValid() && this.items.first() != null && this.targetBlock.acceptItem(this.targetBlock, this.items.first())){
                 this.targetBlock.handleItem(this, this.items.first());
                 Fx.itemTransfer.at(this.x, this.y, 1, this.items.first().color, this.targetBlock)
-                this.items.take()
+                this.items.remove(this.items.first(), 1)
                 this.reload -= 2
             }
         }
