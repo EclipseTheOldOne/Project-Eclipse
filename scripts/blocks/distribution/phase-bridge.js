@@ -27,9 +27,8 @@ phaseB.buildType = () => extend(Router.RouterBuild, phaseB, {
         this.super$update()
         this.shieldSize = Mathf.lerpDelta(this.shieldSize, this.power.status * 4, 0.1)
         this.reload += Time.delta * this.power.status
-        print(this.targetBlock)
-        if(this.reload >= 2 && this.isValid() && this.targetBlock){
-            if(this.items.first() != null && this.targetBlock.acceptItem(this.targetBlock, this.items.first())){
+        if(this.reload >= 2 && this.targetBlock != null){
+            if(this.targetBlock.isValid() && this.items.first() != null && this.targetBlock.acceptItem(this.targetBlock, this.items.first())){
                 this.targetBlock.handleItem(this, this.items.first());
                 Fx.itemTransfer.at(this.x, this.y, 1, this.items.first().color, this.targetBlock)
                 this.items.take()
@@ -57,5 +56,14 @@ phaseB.buildType = () => extend(Router.RouterBuild, phaseB, {
     drawConfigure(){
         this.super$drawConfigure()
         this.drawSelect()
+    },
+    control(type, p1, p2, p3, p4){
+        this.super$control(type, p1, p2, p3, p4)
+        if(type == LAccess.shoot && p3 == 1){
+            var lA = Vars.world.tileWorld(p1 * 8, p2 * 8).build
+            if(lA != null){
+                this.targetBlock = lA
+            }
+        }
     }
 })
