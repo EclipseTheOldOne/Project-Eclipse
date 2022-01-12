@@ -1,7 +1,7 @@
 size: 2
 speed: 10
 health: 375
-description: "Item inputted are sended to Florid- i mean your core\n[accent]Require a huge amount of water"
+description: "Item inputted are sended to Florid- i mean your core\n[accent]Require a huge amount of power\nCan be configured by clicking on other block while configuring it"
 requirements:
 [
     surge-alloy/35
