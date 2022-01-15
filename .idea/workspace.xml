@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ce1e592-27f7-41df-b5f7-3dbe2b10efd0" name="Changes" comment="" />
+    <list default="true" id="5ce1e592-27f7-41df-b5f7-3dbe2b10efd0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/drills/gear-drill.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/drills/gear-drill.hjson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/libs/effectLib.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/libs/effectLib.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,23 +33,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sprites/units/smol-dron" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\blocks\turret" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\drills\beam" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\scripts\blocks\drill" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse" />
       <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\units\smol-dron" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\scripts\blocks\misc" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\blocks\misc" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\misc" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\drills\shovel" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\drills\beam" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\blocks\drills\beam" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\scripts\blocks\drill\beam" />
       <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\units\smol-dron" />
       <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\generators\heat\heater" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\scripts\blocks\generator" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\blocks\generators\heat" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\crafter" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

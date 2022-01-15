@@ -1,0 +1,26 @@
+health: 750
+size: 2
+name: Projection Launcher
+requirements: [
+    titanium/75
+    lead/85
+    silicon/30
+    dentium/45
+]
+configurable: true
+range: 120
+hasItems: true
+itemCapacity: 25
+consumes: {
+    items: {
+        items: [
+            dentium/2
+        ]
+    }
+}
+description: "WIP"
+details: "N"
+category: effect
+research: force-projector
+acceptCoolant: false
+playerControllable: false

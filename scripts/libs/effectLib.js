@@ -28,10 +28,10 @@ const overDriveWave = new Effect(40, e => {
     Draw.alpha(e.fout() / 3)
     Fill.circle(e.x, e.y, eInterp.apply(e.fin()) * 140);
 });
-//basically itemtransfer effect but longer lifetime and use swing
-const itemSlowTransfer = new Effect(120, e => {
+//basically itemtransfer effect but longer lifetime
+const itemSlowTransfer = new Effect(60, e => {
     if(!(e.data instanceof Position)) return;
-    Tmp.v1.set(e.x, e.y).interpolate(Tmp.v2.set(e.data), e.fin(), Interp.swing).add(Tmp.v2.sub(e.x, e.y).nor().rotate90(1).scl(Mathf.randomSeedRange(e.id, 1) * e.fslope() * 10));
+    Tmp.v1.set(e.x, e.y).interpolate(Tmp.v2.set(e.data), e.fin(), Interp.pow3).add(Tmp.v2.sub(e.x, e.y).nor().rotate90(1).scl(Mathf.randomSeedRange(e.id, 1) * e.fslope() * 10));
     var x = Tmp.v1.x, y = Tmp.v1.y;
     var size = 1;
 
