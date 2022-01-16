@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ce1e592-27f7-41df-b5f7-3dbe2b10efd0" name="Changes" comment="" />
+    <list default="true" id="5ce1e592-27f7-41df-b5f7-3dbe2b10efd0" name="Changes" comment="eee">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/turret/projection-launcher.hjson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +26,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="22DfP0CMPEydibltybhLm8rAITa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,23 +36,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/scripts/blocks/misc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\scripts\blocks\misc" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\blocks\misc" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\misc" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\drills\shovel" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\blocks\drills" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\blocks\turret" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\drills\beam" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\scripts\blocks\drill" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\units\smol-dron" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\drills\beam" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\blocks\drills\beam" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\scripts\blocks\drill\beam" />
+      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\units\smol-dron" />
       <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\generators\heat\heater" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\scripts\blocks\generator" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\content\blocks\generators\heat" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\crafter" />
-      <recent name="C:\Users\HOME\AppData\Roaming\Mindustry\mods\Project-Eclipse\sprites\blocks\distribution\big-router" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -57,6 +64,14 @@
       <option name="presentableId" value="Default" />
       <updated>1639377059537</updated>
     </task>
+    <task id="LOCAL-00001" summary="eee">
+      <created>1642259318552</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642259318553</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -69,5 +84,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="eee" />
+    <option name="LAST_COMMIT_MESSAGE" value="eee" />
   </component>
 </project>

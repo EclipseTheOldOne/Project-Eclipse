@@ -1,5 +1,6 @@
 health: 450
 tier: 3
+hardnessDrillMultiplier: 20
 name: Gear Drill
 drillTime: 260
 description: "Mine 20% faster for each gear drill next to it!\n[red]Can only mine titanium or weaker ores."

@@ -16,7 +16,7 @@ shootType:
     healPercent: 6
     homingPower: 0.1
     speed: 4
-    weaveMag: 4
+    weaveMag: 2
     displayAmmoMultiplier: false
     shootEffect: {
         type: ExplosionEffect
