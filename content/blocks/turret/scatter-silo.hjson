@@ -22,5 +22,5 @@ description: "A sprayer, break graphite and shoot it everywhere\n[#8a73c6]Use Lo
 details: "Why, you ask?\nBecause it's [red]Fun."
 category: effect
 research: scatter
-acceptCoolant: false
+acceptCoolant: true
 playerControllable: false

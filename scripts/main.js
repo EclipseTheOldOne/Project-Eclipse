@@ -17,7 +17,6 @@ require("blocks/crafter/big-phase");
 require("blocks/crafter/lab");
 //defensive
 require("blocks/defense/shootWall")
-require("blocks/defense/laserNode")
 //distribution
 require("blocks/distribution/big-router")
 require("blocks/distribution/conjoiner")

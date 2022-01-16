@@ -18,6 +18,7 @@ cooler.buildType = () => extend(Router.RouterBuild, cooler, {
                     if(other.block.canOverdrive == true){
                         other.applyBoost(2.5 * this.power.status, 70)
                     }
+                    Fx.dooropen.at(other.x, other.y);
                 }
             }
             this.reload -= 60
