@@ -1,4 +1,6 @@
-const lib = require("libs/bulletLib")
+const lib = require("libs/bulletLib");
+const siloType = require("libs/type/blockSilo");
+/*
 const scatterSilo = extend(Turret, "scatter-silo", {
     canReplace(other){
         this.super$canReplace(other);
@@ -69,4 +71,16 @@ scatterSilo.buildType = () => extend(Turret.TurretBuild, scatterSilo, {
             }
         }
     }
+})
+
+*/
+
+const silo = siloType("scatter-silo", {
+  shootType: lib.siloBullet,
+  shots: 12,
+  shootEffect: Fx.flakExplosion,
+  replacementblock: Blocks.container,
+  velocityInaccuracy: 0.6
+}, {
+
 })

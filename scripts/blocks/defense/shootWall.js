@@ -1,8 +1,9 @@
 const lib = require("libs/bulletLib")
 const wall = extend(Wall, "reflector", {
-  reloadTime: 100,
+  reloadTime: 10,
   range: 110,
   shootType: lib.pulseBullet,
+  shootSound: Sounds.lasershoot,
   load() {
     this.region = Core.atlas.find(this.name);
     this.liquidRegion = Core.atlas.find(this.name + "-liquid");
@@ -18,7 +19,7 @@ const wall = extend(Wall, "reflector", {
     this.bars.add("reload", entity => new Bar(
       () => "Reload",
       () => Pal.lancerLaser,
-      () => entity.getReload()
+      () => entity.getReload()/this.reloadTime
     ))
   },
   drawPlace(x, y, rotation, valid) {
@@ -39,14 +40,16 @@ wall.buildType = ent => extend(Wall.WallBuild, wall, {
     Draw.rect(wall.region, this.x, this.y);
     Drawf.liquid(wall.liquidRegion, this.x, this.y, this.liquids.total() / wall.liquidCapacity, Liquids.water.color);
     Draw.color(Color.valueOf("a5b8f2"));
-    Draw.alpha(wall.reloadTime - this._reload);
+    if(!this.shouldConsume()){
+    Draw.alpha(Mathf.absin(Time.time, 20, 1));
     Draw.rect(wall.topRegion, this.x, this.y);
+    }
   },
   collision(bullet) {
     this.super$collision(bullet);
-    Sounds.lasershoot.at(this.x, this.y, 0.2);
     if (this._reload >= wall.reloadTime) {
       wall.shootType.create(this, this.team, this.x, this.y,0);
+      wall.shootSound.at(this.x, this.y, 0.4);
       this._reload = 0;
     }
     return true;
